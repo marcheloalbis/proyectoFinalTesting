@@ -1,8 +1,9 @@
 # Proyecto Testing
 Proyecto de automatización de pruebas para la aplicación “The-Internet” usando Selenium WebDriver, Java y TestNG.
 
-![Texto alternativo](https://www.bugraptors.com/blog/public/blog_images/why-we-choose-selenium-webdriver-over-selenium-ide-wyc9f-600x400.jpg)
-
+<p align="center">
+  <img width="600" height="400" src="https://www.bugraptors.com/blog/public/blog_images/why-we-choose-selenium-webdriver-over-selenium-ide-wyc9f-600x400.jpg">
+</p>
 
 Se debe accerder al siguiente enlace donde se encontraran los ejercicios señalados
 
