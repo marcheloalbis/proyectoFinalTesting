@@ -15,6 +15,16 @@ Se debe accerder al siguiente enlace donde se encontraran los ejercicios señala
 
         “You logged into a secure area!”
 
+<p align="center">
+  <img width="600" height="350" src="src\img\loginTest\loginReportingScreen.png">
+</p>
+<p align="center">
+  <img width="600" height="350" src="src\img\loginTest\loginGoodCredentials.png">
+</p>
+<p align="center">
+  <img width="600" height="350" src="src\img\loginTest\loginSuccess.png">
+</p>
+
 + ***Casos de pruebas de adicionar y eliminar elementos en la sección de “Add/Remove Elements”.***
 
         Caso de Prueba 1: Adicionar elemento
