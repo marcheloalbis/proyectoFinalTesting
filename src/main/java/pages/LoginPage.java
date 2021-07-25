@@ -40,6 +40,7 @@ public class LoginPage {
     public SecureAreaPage clickOnLoginButton(){
         WebElement element = webDriver.findElement(loginButton);
         element.click();
+        ScreenShotHelper.takeScreenShotAndAdToHTMLReport(webDriver, Status.INFO, "SecureAreaPage");
         return new SecureAreaPage(webDriver);
     }
 
