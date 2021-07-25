@@ -10,10 +10,16 @@ import pages.SecureAreaPage;
 public class CheckboxesTest extends BaseTest {
 
     @Test
-    public void testCheckBoxes(){
+    public void testCheckBoxes1(){
         CheckboxPage checkboxPage= new CheckboxPage(webDriver);
         checkboxPage.selectLink();
         checkboxPage.selectCheck(CheckboxPage.checkboxTest1);
+    }
+
+    @Test
+    public void testCheckBoxes2(){
+        CheckboxPage checkboxPage= new CheckboxPage(webDriver);
+        checkboxPage.selectLink();
         checkboxPage.selectCheck(CheckboxPage.checkboxTest2);
     }
 }
