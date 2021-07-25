@@ -1,5 +1,7 @@
 package pages;
 
+import com.aventstack.extentreports.Status;
+import helper.ScreenShotHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -45,6 +47,7 @@ public class LoginPage {
         selectLink();
         typeUserName(user);
         typePassWord(passWord);
+        ScreenShotHelper.takeScreenShotAndAdToHTMLReport(webDriver, Status.INFO, "Login");
         return clickOnLoginButton();
     }
 
