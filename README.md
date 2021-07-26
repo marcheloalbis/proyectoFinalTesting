@@ -16,13 +16,13 @@ Se debe accerder al siguiente enlace donde se encontraran los ejercicios señala
         “You logged into a secure area!”
 
 <p align="center">
-  <img width="600" height="350" src="src\img\loginTest\loginReportingScreen.png">
+  <img width="800" height="350" src="src\img\loginTest\loginReportingScreen.png">
 </p>
 <p align="center">
-  <img width="600" height="350" src="src\img\loginTest\loginGoodCredentials.png">
+  <img width="700" height="350" src="src\img\loginTest\loginGoodCredentials.png">
 </p>
 <p align="center">
-  <img width="600" height="350" src="src\img\loginTest\loginSuccess.png">
+  <img width="700" height="350" src="src\img\loginTest\loginSuccess.png">
 </p>
 
 + ***Casos de pruebas de adicionar y eliminar elementos en la sección de “Add/Remove Elements”.***
@@ -31,8 +31,21 @@ Se debe accerder al siguiente enlace donde se encontraran los ejercicios señala
 
         Caso de Prueba 2: Eliminar elemento
 
+
 + ***Casos de pruebas para la sección de “Checkboxes”.***
+
+<p align="center">
+  <img width="800" height="350" src="src\img\checkboxTest\checkboxReportingScreen.png">
+</p>
 
         Caso de Prueba 1: Marcar Checkbox1
 
+<p align="center">
+  <img width="700" height="350" src="src\img\checkboxTest\checkboxSelected.png">
+</p>
+
         Caso de Prueba 2: Desmarcar Checkbox2
+
+<p align="center">
+  <img width="700" height="350" src="src\img\checkboxTest\checkboxUnselected.png">
+</p>
