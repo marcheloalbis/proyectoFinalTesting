@@ -37,14 +37,14 @@ public class LoginPage {
         element.sendKeys(passWord);
     }
 
-    public SecureAreaPage clickOnLoginButton(){
+    public LoginSecureAreaPage clickOnLoginButton(){
         WebElement element = webDriver.findElement(loginButton);
         element.click();
         ScreenShotHelper.takeScreenShotAndAdToHTMLReport(webDriver, Status.INFO, "SecureAreaPage");
-        return new SecureAreaPage(webDriver);
+        return new LoginSecureAreaPage(webDriver);
     }
 
-    public SecureAreaPage loginAs(String user, String passWord){
+    public LoginSecureAreaPage loginAs(String user, String passWord){
         selectLink();
         typeUserName(user);
         typePassWord(passWord);

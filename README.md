@@ -27,9 +27,21 @@ Se debe accerder al siguiente enlace donde se encontraran los ejercicios señala
 
 + ***Casos de pruebas de adicionar y eliminar elementos en la sección de “Add/Remove Elements”.***
 
+<p align="center">
+  <img width="800" height="250" src="src\img\addRemoveTest\addRemoveReportingScreen.png">
+</p>
+
         Caso de Prueba 1: Adicionar elemento
 
+<p align="center">
+  <img width="700" height="350" src="src\img\addRemoveTest\addElement.png">
+</p>
+
         Caso de Prueba 2: Eliminar elemento
+
+<p align="center">
+  <img width="700" height="350" src="src\img\addRemoveTest\removeElement.png">
+</p>
 
 
 + ***Casos de pruebas para la sección de “Checkboxes”.***
