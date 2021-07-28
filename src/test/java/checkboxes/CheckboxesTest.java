@@ -11,6 +11,7 @@ public class CheckboxesTest extends BaseTest {
         CheckboxPage checkboxPage= new CheckboxPage(webDriver);
         checkboxPage.selectLink();
         checkboxPage.selectCheck(CheckboxPage.checkboxTest1);
+        Assert.assertTrue(checkboxPage.isChecked(CheckboxPage.checkboxTest1));
     }
 
     @Test
@@ -18,5 +19,6 @@ public class CheckboxesTest extends BaseTest {
         CheckboxPage checkboxPage= new CheckboxPage(webDriver);
         checkboxPage.selectLink();
         checkboxPage.selectCheck(CheckboxPage.checkboxTest2);
+        Assert.assertFalse(checkboxPage.isChecked(CheckboxPage.checkboxTest2));
     }
 }
