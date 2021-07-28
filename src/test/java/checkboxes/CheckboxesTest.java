@@ -3,6 +3,7 @@ package checkboxes;
 import base.BaseTest;
 import org.testng.annotations.Test;
 import pages.CheckboxPage;
+import org.testng.Assert;
 
 public class CheckboxesTest extends BaseTest {
 
