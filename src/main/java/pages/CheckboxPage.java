@@ -26,5 +26,13 @@ public class CheckboxPage {
         element.click();
         ScreenShotHelper.takeScreenShotAndAdToHTMLReport(webDriver, Status.INFO, "checkbox");
     }
+    
+    public boolean isChecked(By checkbox){
+        WebElement element = webDriver.findElement(checkbox);
+        boolean isChecked=Boolean.valueOf(element.getAttribute("checked"));
+       // isChecked =Boolean.valueOf(webDriver.findElement(checkbox).getAttribute("checked"));
+        return isChecked;
+
+    }
 
 }
